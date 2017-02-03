@@ -11,10 +11,10 @@
 @implementation Palindrome
 
 
--(BOOL) isPalindrome: (NSString*) inputWord{
+-(BOOL) isPalindrome: (NSString*) orginalWord{
     
     
-    NSString *input = inputWord;
+    NSString *input = orginalWord;
     NSMutableString *reversedString = [NSMutableString string];
     
     for (NSInteger i = input.length - 1; i >= 0; i--) {

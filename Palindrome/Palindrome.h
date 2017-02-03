@@ -11,7 +11,7 @@
 @interface Palindrome : NSObject
 
 
--(BOOL) isPalindrome: (NSString*) inputWord;
+-(BOOL) isPalindrome: (NSString*) orginalWord;
 
 
 @end
